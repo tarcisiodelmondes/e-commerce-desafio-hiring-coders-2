@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { colorGray, colorLightDark } from "./colors";
 
 export const GlobalStyle = createGlobalStyle`
     *, *::before, *::after {
@@ -14,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         box-sizing: border-box;
         font-family: 'Lato', sans-serif;
+        background-color: ${colorLightDark};
     }
 
     button {
