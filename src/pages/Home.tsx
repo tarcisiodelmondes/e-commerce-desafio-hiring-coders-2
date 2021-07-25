@@ -78,7 +78,6 @@ function Home() {
   return (
     <div className="App">
       <Header />
-      {console.log(productsElectronics)}
 
       <HomeStyle>
         <div className="content-products">

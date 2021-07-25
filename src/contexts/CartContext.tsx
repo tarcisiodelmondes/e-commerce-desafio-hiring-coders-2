@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { createContext } from "react";
 import { Products } from "../interfaces/Products";
 import { loadLocalStorage } from "../utils/loadLocalStorage";
-import { saveInLocalStorage } from "../utils/saveInlocalStorage";
+import { saveInLocalStorage } from "../utils/saveInLocalStorage";
 
 export interface CartContextData {
   productTotal: number;

@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+<h1 align="center">
+  CoreFriday 2
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#licença">Licença</a>
+</p>
 
-## Available Scripts
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a id="funcionalidades"></a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Funcionalidades
 
-### `yarn test`
+- [x] Responsivo
+- [x] Salva dados do carrinho no localStorage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a id="pre-requisitos"></a>
 
-### `yarn build`
+## Demonstração da aplicação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Acesse: <https://e-commerce-desafio-hiring-coders-2.vercel.app/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a id="tecnologias"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Tecnologias
 
-### `yarn eject`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Typescript
+- React
+- Styled-Components
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a id="projeto"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 💻 Projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Desafio hiring Coders 2.
 
-## Learn More
+<a id="licenca"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Licença
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ♥ by Tarcisio Delmondes :wave: [Me siga no linkedin](https://www.linkedin.com/in/tarcisio-delmondes/)
