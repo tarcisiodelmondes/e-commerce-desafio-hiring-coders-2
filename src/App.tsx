@@ -1,10 +1,11 @@
-import { Header } from "./components/Header";
+import { CartContextProvider } from "./contexts/CartContext";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <CartContextProvider>
+      <Home />
+    </CartContextProvider>
   );
 }
 

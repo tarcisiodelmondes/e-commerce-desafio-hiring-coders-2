@@ -17,7 +17,7 @@ export const CartStyle = styled.div`
 
       padding: 0.5px 6px;
       font-weight: 600;
-      font-size: 0.975rem;
+      font-size: 0.875rem;
     }
   }
 `;

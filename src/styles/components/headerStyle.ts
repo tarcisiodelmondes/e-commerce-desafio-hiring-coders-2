@@ -34,17 +34,17 @@ export const HeaderStyle = styled.header`
       width: 65%;
       height: 100%;
       height: 0.5rem;
-      font-size: 1.2rem;
+      font-size: 1rem;
       padding: 0.8rem;
       border-radius: 5px 0 0 5px;
-      border: 3px solid ${colorPrimaryLight};
+      border: 2px solid ${colorPrimaryLight};
 
       outline-color: ${colorPrimaryDark};
       outline-width: 2px;
 
       &::placeholder {
         opacity: 0.5;
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
     }
 
@@ -54,15 +54,21 @@ export const HeaderStyle = styled.header`
       justify-content: center;
 
       height: 0.5rem;
-      padding: 1rem;
+      padding: 0.8rem;
       background-color: ${colorPrimaryLight};
-      border: none;
+      border: 2px solid ${colorPrimaryLight};
 
       border-radius: 0 5px 5px 0;
 
       color: ${colorLight};
       outline-color: ${colorPrimaryDark};
       outline-width: 2px;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: ${colorPrimaryDark};
+        border: 2px solid ${colorPrimaryDark};
+      }
     }
   }
 
