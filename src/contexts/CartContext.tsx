@@ -25,10 +25,6 @@ export function CartContextProvider({ children }: CartContextProvider) {
 
   function addProductInCart(product: Products) {
     setProductsInCart((productsInCart) => [...productsInCart, product]);
-
-    saveInLocalStorage("@coreFriday:cart", productsInCart);
-
-    productTotalCount();
   }
 
   function productTotalCount() {
@@ -46,6 +42,12 @@ export function CartContextProvider({ children }: CartContextProvider) {
 
     productTotalCount();
   }, []);
+
+  useEffect(() => {
+    saveInLocalStorage("@coreFriday:cart", productsInCart);
+
+    productTotalCount();
+  }, [productsInCart]);
 
   return (
     <CartContext.Provider
